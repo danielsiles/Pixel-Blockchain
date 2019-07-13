@@ -1,0 +1,17 @@
+.pixel {
+    height: 15px;
+    width: 15px;
+    transition: all .1s ease-in-out;
+    /*border: 1px solid black;*/
+}
+
+.pixel:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.pixel_inner_outline {
+    outline: 1px solid red;
+}

@@ -1,0 +1,9 @@
+.app {
+    padding: 0;
+    margin: 0;
+}
+
+.pixelTable, .pixelTable tr, .pixelTable td {
+    padding: 0;
+    margin: 0;
+}
